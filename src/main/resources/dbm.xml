@@ -1,0 +1,16 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<dbm>
+<dataSources>
+	<datasource id="SMDB" class="org.apache.commons.dbcp.BasicDataSource" dialectClass="com.struggle.dialect.OracleDialect">
+	    <param name="driverClassName" value='oracle.jdbc.driver.OracleDriver'/>
+	    <param name='url' value='jdbc:oracle:thin:@192.168.233.3:1521:orcl'/>
+	    <param name='username' value='aradmin'/>
+	    <param name='password' value='AR#Admin#'/>
+	    <param name='maxActive' value='30'/>
+	    <param name='maxIdle' value='5'/>
+	    <param name='minIdle' value='1'/>
+	    <param name='initialSize' value='10'/>
+	    <param name='maxWait' value='1000'/>
+    </datasource> 
+</dataSources>
+</dbm>

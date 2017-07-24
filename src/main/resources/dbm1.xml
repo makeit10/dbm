@@ -1,0 +1,16 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<dbm>
+<dataSources>
+	<datasource id="SMDB" class="org.apache.commons.dbcp.BasicDataSource" dialectClass="com.struggle.dialect.MysqlDialect">
+	    <param name="driverClassName" value='com.mysql.jdbc.Driver'/>
+	    <param name='url' value='jdbc:mysql://localhost:3306/smdb'/>
+	    <param name='username' value='root'/>
+	    <param name='password' value='password'/>
+	    <param name='maxActive' value='30'/>
+	    <param name='maxIdle' value='5'/>
+	    <param name='minIdle' value='1'/>
+	    <param name='initialSize' value='10'/>
+	    <param name='maxWait' value='1000'/>
+    </datasource> 
+</dataSources>
+</dbm>
